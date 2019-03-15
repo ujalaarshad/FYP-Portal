@@ -83,6 +83,51 @@ namespace fyp_project
                 MessageBox.Show("deleted sucessfully");
 
             }
+            if (e.ColumnIndex == 5)
+            {
+                int i = e.RowIndex;
+                DataGridViewRow row = dataGridViewEVal.Rows[i];
+
+              
+        string Nam = row.Cells[1].Value.ToString();
+                string TotMarks = row.Cells[2].Value.ToString();
+        string tltweight = row.Cells[3].Value.ToString();
+        
+
+                List<string> l = new List<string>();
+                l.Add(Nam);
+                l.Add(TotMarks);
+                l.Add(tltweight);
+
+
+                UpdateEvaluation frm = new UpdateEvaluation(Convert.ToInt32(row.Cells[0].Value), l);
+                frm.Show();
+            }
+        }
+
+        private void txtnamep_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txttotalwei_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txttmarks_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbllname_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblfname_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

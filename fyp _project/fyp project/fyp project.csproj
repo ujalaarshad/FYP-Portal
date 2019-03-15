@@ -78,6 +78,12 @@
     <Compile Include="Student.Designer.cs">
       <DependentUpon>Student.cs</DependentUpon>
     </Compile>
+    <Compile Include="UpdateEvaluation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateEvaluation.Designer.cs">
+      <DependentUpon>UpdateEvaluation.cs</DependentUpon>
+    </Compile>
     <Compile Include="UpdateProject.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -107,6 +113,9 @@
     </Compile>
     <EmbeddedResource Include="Student.resx">
       <DependentUpon>Student.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateEvaluation.resx">
+      <DependentUpon>UpdateEvaluation.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UpdateProject.resx">
       <DependentUpon>UpdateProject.cs</DependentUpon>

@@ -32,7 +32,7 @@ namespace fyp_project
                 s.ExecuteNonQuery();
                 //  c.Close();
                 // MessageBox.Show("sucess");
-               /* string q = "Select *from Project";
+                string q = "Select *from Project";
                 SqlDataAdapter tbl = new SqlDataAdapter(q, constr);
                 DataTable tbls = new DataTable();
                 tbl.Fill(tbls);
@@ -54,7 +54,7 @@ namespace fyp_project
                 btn1.Name = "btn1";
                 btn1.UseColumnTextForButtonValue = true;
 
-                MessageBox.Show("sucess");*/
+                MessageBox.Show("sucess");
             }
         }
 
@@ -118,29 +118,7 @@ namespace fyp_project
 
         private void Addproject_Load(object sender, EventArgs e)
         {
-            string q = "Select *from Project";
-            SqlDataAdapter tbl = new SqlDataAdapter(q, constr);
-            DataTable tbls = new DataTable();
-            tbl.Fill(tbls);
-
-
-            dataGridView1.DataSource = tbls;
-            ;
-            DataGridViewButtonColumn btn = new DataGridViewButtonColumn();
-            dataGridView1.Columns.Add(btn);
-            btn.HeaderText = "Delete";
-            btn.Text = "Delete";
-            btn.Name = "btn";
-            btn.UseColumnTextForButtonValue = true;
-
-            DataGridViewButtonColumn btn1 = new DataGridViewButtonColumn();
-            dataGridView1.Columns.Add(btn1);
-            btn1.HeaderText = "Update";
-            btn1.Text = "Update";
-            btn1.Name = "btn1";
-            btn1.UseColumnTextForButtonValue = true;
-
-            MessageBox.Show("sucess");
+            
         }
     }
 }

@@ -45,6 +45,7 @@
             this.txtnamep.Name = "txtnamep";
             this.txtnamep.Size = new System.Drawing.Size(114, 20);
             this.txtnamep.TabIndex = 34;
+            this.txtnamep.TextChanged += new System.EventHandler(this.txtnamep_TextChanged);
             // 
             // txttotalwei
             // 
@@ -52,6 +53,7 @@
             this.txttotalwei.Name = "txttotalwei";
             this.txttotalwei.Size = new System.Drawing.Size(114, 20);
             this.txttotalwei.TabIndex = 33;
+            this.txttotalwei.TextChanged += new System.EventHandler(this.txttotalwei_TextChanged);
             // 
             // txttmarks
             // 
@@ -59,6 +61,7 @@
             this.txttmarks.Name = "txttmarks";
             this.txttmarks.Size = new System.Drawing.Size(114, 20);
             this.txttmarks.TabIndex = 32;
+            this.txttmarks.TextChanged += new System.EventHandler(this.txttmarks_TextChanged);
             // 
             // lblcontact
             // 
@@ -78,6 +81,7 @@
             this.lbllname.Size = new System.Drawing.Size(86, 13);
             this.lbllname.TabIndex = 29;
             this.lbllname.Text = "Total Weightage";
+            this.lbllname.Click += new System.EventHandler(this.lbllname_Click);
             // 
             // lblfname
             // 
@@ -87,6 +91,7 @@
             this.lblfname.Size = new System.Drawing.Size(63, 13);
             this.lblfname.TabIndex = 28;
             this.lblfname.Text = "Total Marks";
+            this.lblfname.Click += new System.EventHandler(this.lblfname_Click);
             // 
             // btnadd
             // 

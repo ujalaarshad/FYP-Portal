@@ -12,3 +12,18 @@ c:\users\pc\documents\visual studio 2015\Projects\fyp project\fyp project\obj\De
 c:\users\pc\documents\visual studio 2015\Projects\fyp project\fyp project\obj\Debug\fyp_project.Addproject.resources
 C:\Users\PC\Documents\Visual Studio 2015\Projects\fyp project\fyp project\obj\Debug\fyp_project.frmstudentupdate.resources
 C:\Users\PC\Documents\Visual Studio 2015\Projects\fyp project\fyp project\obj\Debug\fyp_project.UpdateProject.resources
+C:\Users\PC\Desktop\FYP-Portal\fyp _project\fyp project\bin\Debug\fyp project.exe.config
+C:\Users\PC\Desktop\FYP-Portal\fyp _project\fyp project\obj\Debug\fyp project.exe
+C:\Users\PC\Desktop\FYP-Portal\fyp _project\fyp project\obj\Debug\fyp project.pdb
+C:\Users\PC\Desktop\FYP-Portal\fyp _project\fyp project\bin\Debug\fyp project.exe
+C:\Users\PC\Desktop\FYP-Portal\fyp _project\fyp project\bin\Debug\fyp project.pdb
+C:\Users\PC\Desktop\FYP-Portal\fyp _project\fyp project\obj\Debug\fyp project.csprojResolveAssemblyReference.cache
+C:\Users\PC\Desktop\FYP-Portal\fyp _project\fyp project\obj\Debug\fyp_project.Addproject.resources
+C:\Users\PC\Desktop\FYP-Portal\fyp _project\fyp project\obj\Debug\fyp_project.Form1.resources
+C:\Users\PC\Desktop\FYP-Portal\fyp _project\fyp project\obj\Debug\fyp_project.frmstudentupdate.resources
+C:\Users\PC\Desktop\FYP-Portal\fyp _project\fyp project\obj\Debug\fyp_project.ManageEvaluation.resources
+C:\Users\PC\Desktop\FYP-Portal\fyp _project\fyp project\obj\Debug\fyp_project.Properties.Resources.resources
+C:\Users\PC\Desktop\FYP-Portal\fyp _project\fyp project\obj\Debug\fyp_project.Student.resources
+C:\Users\PC\Desktop\FYP-Portal\fyp _project\fyp project\obj\Debug\fyp_project.UpdateProject.resources
+C:\Users\PC\Desktop\FYP-Portal\fyp _project\fyp project\obj\Debug\fyp project.csproj.GenerateResource.Cache
+C:\Users\PC\Desktop\FYP-Portal\fyp _project\fyp project\obj\Debug\fyp_project.UpdateEvaluation.resources
