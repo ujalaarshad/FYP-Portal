@@ -45,5 +45,10 @@ namespace fyp_project
           Addproject frm = new Addproject();
             frm.Show();
         }
+
+        private void linkLabel2_LinkClicked_1(object sender, LinkLabelLinkClickedEventArgs e)
+        {AddAdvisor frm = new AddAdvisor();
+            frm.Show();
+        }
     }
 }

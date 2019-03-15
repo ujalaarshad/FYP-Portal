@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddAdvisor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddAdvisor.Designer.cs">
+      <DependentUpon>AddAdvisor.cs</DependentUpon>
+    </Compile>
     <Compile Include="Addproject.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +84,12 @@
     <Compile Include="Student.Designer.cs">
       <DependentUpon>Student.cs</DependentUpon>
     </Compile>
+    <Compile Include="UpdateAdvisor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateAdvisor.Designer.cs">
+      <DependentUpon>UpdateAdvisor.cs</DependentUpon>
+    </Compile>
     <Compile Include="UpdateEvaluation.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -90,6 +102,9 @@
     <Compile Include="UpdateProject.Designer.cs">
       <DependentUpon>UpdateProject.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AddAdvisor.resx">
+      <DependentUpon>AddAdvisor.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Addproject.resx">
       <DependentUpon>Addproject.cs</DependentUpon>
     </EmbeddedResource>
@@ -113,6 +128,9 @@
     </Compile>
     <EmbeddedResource Include="Student.resx">
       <DependentUpon>Student.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateAdvisor.resx">
+      <DependentUpon>UpdateAdvisor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UpdateEvaluation.resx">
       <DependentUpon>UpdateEvaluation.cs</DependentUpon>
