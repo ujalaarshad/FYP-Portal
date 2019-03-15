@@ -1,0 +1,14 @@
+c:\users\pc\documents\visual studio 2015\Projects\fyp project\fyp project\bin\Debug\fyp project.exe.config
+c:\users\pc\documents\visual studio 2015\Projects\fyp project\fyp project\obj\Debug\fyp project.csprojResolveAssemblyReference.cache
+c:\users\pc\documents\visual studio 2015\Projects\fyp project\fyp project\obj\Debug\fyp_project.Form1.resources
+c:\users\pc\documents\visual studio 2015\Projects\fyp project\fyp project\obj\Debug\fyp_project.Properties.Resources.resources
+c:\users\pc\documents\visual studio 2015\Projects\fyp project\fyp project\obj\Debug\fyp_project.Student.resources
+c:\users\pc\documents\visual studio 2015\Projects\fyp project\fyp project\obj\Debug\fyp project.csproj.GenerateResource.Cache
+c:\users\pc\documents\visual studio 2015\Projects\fyp project\fyp project\bin\Debug\fyp project.exe
+c:\users\pc\documents\visual studio 2015\Projects\fyp project\fyp project\bin\Debug\fyp project.pdb
+c:\users\pc\documents\visual studio 2015\Projects\fyp project\fyp project\obj\Debug\fyp project.exe
+c:\users\pc\documents\visual studio 2015\Projects\fyp project\fyp project\obj\Debug\fyp project.pdb
+c:\users\pc\documents\visual studio 2015\Projects\fyp project\fyp project\obj\Debug\fyp_project.ManageEvaluation.resources
+c:\users\pc\documents\visual studio 2015\Projects\fyp project\fyp project\obj\Debug\fyp_project.Addproject.resources
+C:\Users\PC\Documents\Visual Studio 2015\Projects\fyp project\fyp project\obj\Debug\fyp_project.frmstudentupdate.resources
+C:\Users\PC\Documents\Visual Studio 2015\Projects\fyp project\fyp project\obj\Debug\fyp_project.UpdateProject.resources
