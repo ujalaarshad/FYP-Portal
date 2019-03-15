@@ -34,7 +34,7 @@ namespace fyp_project
             string s = comboBoxsal.Text;
             string query = "Insert into [Person] Values('" + txtfname.Text.ToString() + " ','" + txtlast.Text.ToString() + " ' , '" + txtcon.Text.ToString() + " ' , '" + txtemail.Text.ToString() + " ' ,' " + Convert.ToDateTime(dateTimePickerDOB.Text) + " ','" + Convert.ToInt32(txtgender.Text) + " ' )";
             SqlCommand cmd4 = new SqlCommand(query, c);
-            cmd4.ExecuteNonQuery();
+            cmd4.ExecuteNonQuery();//exute query
 
 
 
