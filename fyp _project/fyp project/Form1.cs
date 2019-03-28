@@ -50,5 +50,17 @@ namespace fyp_project
         {AddAdvisor frm = new AddAdvisor();
             frm.Show();
         }
+
+        private void linkLabel4_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            groupformation frm = new groupformation();
+            frm.Show();
+        }
+
+        private void linkLabel5_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+          Groupstudent frm = new Groupstudent();
+            frm.Show();
+        }
     }
 }

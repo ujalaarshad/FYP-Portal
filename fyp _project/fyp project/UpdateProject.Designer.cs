@@ -93,6 +93,7 @@
             this.Controls.Add(this.lblfname);
             this.Name = "UpdateProject";
             this.Text = "UpdateProject";
+            this.Load += new System.EventHandler(this.UpdateProject_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

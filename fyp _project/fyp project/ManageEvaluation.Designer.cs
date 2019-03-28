@@ -111,6 +111,7 @@
             this.dataGridViewEVal.Size = new System.Drawing.Size(443, 165);
             this.dataGridViewEVal.TabIndex = 36;
             this.dataGridViewEVal.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewEVal_CellClick);
+            this.dataGridViewEVal.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewEVal_CellContentClick);
             // 
             // ManageEvaluation
             // 

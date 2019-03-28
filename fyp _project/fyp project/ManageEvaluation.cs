@@ -129,5 +129,10 @@ namespace fyp_project
         {
 
         }
+
+        private void dataGridViewEVal_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

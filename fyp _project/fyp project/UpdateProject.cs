@@ -71,5 +71,10 @@ namespace fyp_project
         {
 
         }
+
+        private void UpdateProject_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -39,7 +39,7 @@ namespace fyp_project
 
                 
                 dataGridView1.DataSource = tbls;
-            ;
+            
                 DataGridViewButtonColumn btn = new DataGridViewButtonColumn();
                 dataGridView1.Columns.Add(btn);
                 btn.HeaderText = "Delete";
@@ -119,6 +119,11 @@ namespace fyp_project
         private void Addproject_Load(object sender, EventArgs e)
         {
             
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

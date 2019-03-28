@@ -37,6 +37,8 @@
             this.linkLabel2 = new System.Windows.Forms.LinkLabel();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.linklblevaluation = new System.Windows.Forms.LinkLabel();
+            this.linkLabel4 = new System.Windows.Forms.LinkLabel();
+            this.linkLabel5 = new System.Windows.Forms.LinkLabel();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -58,6 +60,8 @@
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.linkLabel5);
+            this.tabPage1.Controls.Add(this.linkLabel4);
             this.tabPage1.Controls.Add(this.linkLabel1);
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
@@ -144,6 +148,28 @@
             this.linklblevaluation.Text = "Manage Evaluation";
             this.linklblevaluation.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linklblevaluation_LinkClicked);
             // 
+            // linkLabel4
+            // 
+            this.linkLabel4.AutoSize = true;
+            this.linkLabel4.Location = new System.Drawing.Point(87, 65);
+            this.linkLabel4.Name = "linkLabel4";
+            this.linkLabel4.Size = new System.Drawing.Size(82, 13);
+            this.linkLabel4.TabIndex = 1;
+            this.linkLabel4.TabStop = true;
+            this.linkLabel4.Text = "Group formation";
+            this.linkLabel4.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel4_LinkClicked);
+            // 
+            // linkLabel5
+            // 
+            this.linkLabel5.AutoSize = true;
+            this.linkLabel5.Location = new System.Drawing.Point(94, 87);
+            this.linkLabel5.Name = "linkLabel5";
+            this.linkLabel5.Size = new System.Drawing.Size(34, 13);
+            this.linkLabel5.TabIndex = 2;
+            this.linkLabel5.TabStop = true;
+            this.linkLabel5.Text = "group";
+            this.linkLabel5.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel5_LinkClicked);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -176,6 +202,8 @@
         private System.Windows.Forms.LinkLabel linklblevaluation;
         private System.Windows.Forms.LinkLabel linkLabel3;
         private System.Windows.Forms.LinkLabel linkLabel2;
+        private System.Windows.Forms.LinkLabel linkLabel4;
+        private System.Windows.Forms.LinkLabel linkLabel5;
     }
 }
 

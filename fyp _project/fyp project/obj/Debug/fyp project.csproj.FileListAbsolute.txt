@@ -29,3 +29,7 @@ C:\Users\PC\Desktop\FYP-Portal\fyp _project\fyp project\obj\Debug\fyp project.cs
 C:\Users\PC\Desktop\FYP-Portal\fyp _project\fyp project\obj\Debug\fyp_project.UpdateEvaluation.resources
 C:\Users\PC\Desktop\FYP-Portal\fyp _project\fyp project\obj\Debug\fyp_project.AddAdvisor.resources
 C:\Users\PC\Desktop\FYP-Portal\fyp _project\fyp project\obj\Debug\fyp_project.UpdateAdvisor.resources
+C:\Users\PC\Desktop\FYP-Portal\fyp _project\fyp project\obj\Debug\fyp_project.groupformation.resources
+C:\Users\PC\Desktop\FYP-Portal\fyp _project\fyp project\obj\Debug\fyp_project.Groupstudent.resources
+C:\Users\PC\Desktop\FYP-Portal\fyp _project\fyp project\obj\Debug\fyp_project.Form3.resources
+C:\Users\PC\Desktop\FYP-Portal\fyp _project\fyp project\obj\Debug\fyp_project.updategrp.resources
