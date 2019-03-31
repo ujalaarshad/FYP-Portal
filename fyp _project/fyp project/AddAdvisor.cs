@@ -120,5 +120,10 @@ namespace fyp_project
                 frm.Show();
             }
         }
+
+        private void comboBoxsal_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

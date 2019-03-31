@@ -62,5 +62,23 @@ namespace fyp_project
           Groupstudent frm = new Groupstudent();
             frm.Show();
         }
+
+        private void linkLabel6_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            GroupEvaluation frm = new GroupEvaluation();
+            frm.Show();
+        }
+
+        private void linkLabel7_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            groupProject frm = new groupProject();
+            frm.Show();
+
+        }
+
+        private void linkLabel8_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {projectadv frm = new projectadv();
+            frm.Show();
+        }
     }
 }

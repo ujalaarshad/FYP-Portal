@@ -97,6 +97,7 @@
             this.comboBoxsal.Name = "comboBoxsal";
             this.comboBoxsal.Size = new System.Drawing.Size(121, 21);
             this.comboBoxsal.TabIndex = 50;
+            this.comboBoxsal.SelectedIndexChanged += new System.EventHandler(this.comboBoxsal_SelectedIndexChanged);
             // 
             // dateTimePickerDOB
             // 

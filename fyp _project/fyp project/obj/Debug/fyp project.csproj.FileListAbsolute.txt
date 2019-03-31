@@ -33,3 +33,8 @@ C:\Users\PC\Desktop\FYP-Portal\fyp _project\fyp project\obj\Debug\fyp_project.gr
 C:\Users\PC\Desktop\FYP-Portal\fyp _project\fyp project\obj\Debug\fyp_project.Groupstudent.resources
 C:\Users\PC\Desktop\FYP-Portal\fyp _project\fyp project\obj\Debug\fyp_project.Form3.resources
 C:\Users\PC\Desktop\FYP-Portal\fyp _project\fyp project\obj\Debug\fyp_project.updategrp.resources
+C:\Users\PC\Desktop\FYP-Portal\fyp _project\fyp project\obj\Debug\fyp_project.GroupEvaluation.resources
+C:\Users\PC\Desktop\FYP-Portal\fyp _project\fyp project\obj\Debug\fyp_project.updeval.resources
+C:\Users\PC\Desktop\FYP-Portal\fyp _project\fyp project\obj\Debug\fyp_project.groupProject.resources
+C:\Users\PC\Desktop\FYP-Portal\fyp _project\fyp project\obj\Debug\fyp_project.updateprojectgrp.resources
+C:\Users\PC\Desktop\FYP-Portal\fyp _project\fyp project\obj\Debug\fyp_project.projectadv.resources
