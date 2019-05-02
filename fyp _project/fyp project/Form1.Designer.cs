@@ -34,14 +34,14 @@
             this.linkLabel4 = new System.Windows.Forms.LinkLabel();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.linkLabel7 = new System.Windows.Forms.LinkLabel();
             this.linkLabel3 = new System.Windows.Forms.LinkLabel();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.linkLabel8 = new System.Windows.Forms.LinkLabel();
             this.linkLabel2 = new System.Windows.Forms.LinkLabel();
             this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.linklblevaluation = new System.Windows.Forms.LinkLabel();
             this.linkLabel6 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel7 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel8 = new System.Windows.Forms.LinkLabel();
+            this.linklblevaluation = new System.Windows.Forms.LinkLabel();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -55,10 +55,10 @@
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Controls.Add(this.tabPage3);
             this.tabControl1.Controls.Add(this.tabPage4);
-            this.tabControl1.Location = new System.Drawing.Point(12, 27);
+            this.tabControl1.Location = new System.Drawing.Point(-3, 12);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(246, 129);
+            this.tabControl1.Size = new System.Drawing.Size(275, 218);
             this.tabControl1.TabIndex = 0;
             // 
             // tabPage1
@@ -69,7 +69,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(238, 103);
+            this.tabPage1.Size = new System.Drawing.Size(267, 192);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Student";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -119,6 +119,17 @@
             this.tabPage2.Text = "Project";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
+            // linkLabel7
+            // 
+            this.linkLabel7.AutoSize = true;
+            this.linkLabel7.Location = new System.Drawing.Point(71, 65);
+            this.linkLabel7.Name = "linkLabel7";
+            this.linkLabel7.Size = new System.Drawing.Size(69, 13);
+            this.linkLabel7.TabIndex = 1;
+            this.linkLabel7.TabStop = true;
+            this.linkLabel7.Text = "GroupProject";
+            this.linkLabel7.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel7_LinkClicked);
+            // 
             // linkLabel3
             // 
             this.linkLabel3.AutoSize = true;
@@ -141,6 +152,17 @@
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Advisor";
             this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // linkLabel8
+            // 
+            this.linkLabel8.AutoSize = true;
+            this.linkLabel8.Location = new System.Drawing.Point(73, 62);
+            this.linkLabel8.Name = "linkLabel8";
+            this.linkLabel8.Size = new System.Drawing.Size(71, 13);
+            this.linkLabel8.TabIndex = 1;
+            this.linkLabel8.TabStop = true;
+            this.linkLabel8.Text = "GroupAdvisor";
+            this.linkLabel8.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel8_LinkClicked);
             // 
             // linkLabel2
             // 
@@ -165,17 +187,6 @@
             this.tabPage4.Text = "Evaluations";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
-            // linklblevaluation
-            // 
-            this.linklblevaluation.AutoSize = true;
-            this.linklblevaluation.Location = new System.Drawing.Point(88, 31);
-            this.linklblevaluation.Name = "linklblevaluation";
-            this.linklblevaluation.Size = new System.Drawing.Size(99, 13);
-            this.linklblevaluation.TabIndex = 0;
-            this.linklblevaluation.TabStop = true;
-            this.linklblevaluation.Text = "Manage Evaluation";
-            this.linklblevaluation.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linklblevaluation_LinkClicked);
-            // 
             // linkLabel6
             // 
             this.linkLabel6.AutoSize = true;
@@ -187,27 +198,16 @@
             this.linkLabel6.Text = "GroupEvaluation";
             this.linkLabel6.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel6_LinkClicked);
             // 
-            // linkLabel7
+            // linklblevaluation
             // 
-            this.linkLabel7.AutoSize = true;
-            this.linkLabel7.Location = new System.Drawing.Point(71, 65);
-            this.linkLabel7.Name = "linkLabel7";
-            this.linkLabel7.Size = new System.Drawing.Size(69, 13);
-            this.linkLabel7.TabIndex = 1;
-            this.linkLabel7.TabStop = true;
-            this.linkLabel7.Text = "GroupProject";
-            this.linkLabel7.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel7_LinkClicked);
-            // 
-            // linkLabel8
-            // 
-            this.linkLabel8.AutoSize = true;
-            this.linkLabel8.Location = new System.Drawing.Point(73, 62);
-            this.linkLabel8.Name = "linkLabel8";
-            this.linkLabel8.Size = new System.Drawing.Size(71, 13);
-            this.linkLabel8.TabIndex = 1;
-            this.linkLabel8.TabStop = true;
-            this.linkLabel8.Text = "GroupAdvisor";
-            this.linkLabel8.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel8_LinkClicked);
+            this.linklblevaluation.AutoSize = true;
+            this.linklblevaluation.Location = new System.Drawing.Point(88, 31);
+            this.linklblevaluation.Name = "linklblevaluation";
+            this.linklblevaluation.Size = new System.Drawing.Size(99, 13);
+            this.linklblevaluation.TabIndex = 0;
+            this.linklblevaluation.TabStop = true;
+            this.linklblevaluation.Text = "Manage Evaluation";
+            this.linklblevaluation.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linklblevaluation_LinkClicked);
             // 
             // Form1
             // 

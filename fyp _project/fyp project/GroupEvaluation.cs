@@ -86,34 +86,50 @@ namespace fyp_project
 
 
             if (c.State == ConnectionState.Open)
+
             {
-                string query1 = "Insert into [GroupEvaluation] Values('" + Convert.ToInt32(comboBoxgrp.Text) + "','" + Convert.ToInt32(comboBoxeval.Text) + "','" + Convert.ToInt32(textBox1.Text)  + "','" + DateTime.Now + "' )";
 
-                SqlCommand cmd3 = new SqlCommand(query1, c);
-                cmd3.ExecuteNonQuery();
-                //  c.Close();
-                string selecteval = "Select *from GroupEvaluation";
-                SqlDataAdapter tbl = new SqlDataAdapter(selecteval, constr);
-                DataTable tbls = new DataTable();
-                tbl.Fill(tbls);
+                string q = "Select TotalMarks from Evaluation where Id='"+ comboBoxeval.Text+"'";
+                SqlCommand cmd4 = new SqlCommand(q, c);
+              int f=(int) cmd4.ExecuteScalar();
 
-                dataGridView1.DataSource = tbls;
 
-                dataGridView1.DataSource = tbls;
-                DataGridViewButtonColumn btn = new DataGridViewButtonColumn();
-                dataGridView1.Columns.Add(btn);
-                btn.HeaderText = "Delete";
-                btn.Text = "Delete";
-                btn.Name = "btn";
-                btn.UseColumnTextForButtonValue = true;
+                int k = Convert.ToInt32(textBox1.Text); 
 
-                DataGridViewButtonColumn btn1 = new DataGridViewButtonColumn();
-                dataGridView1.Columns.Add(btn1);
-                btn1.HeaderText = "Update";
-                btn1.Text = "Update";
-                btn1.Name = "btn1";
-                btn1.UseColumnTextForButtonValue = true;
-                MessageBox.Show("sucess");
+                if (k <= f) {
+
+                    string query1 = "Insert into [GroupEvaluation] Values('" + Convert.ToInt32(comboBoxgrp.Text) + "','" + Convert.ToInt32(comboBoxeval.Text) + "','" + Convert.ToInt32(textBox1.Text) + "','" + DateTime.Now + "' )";
+
+                    SqlCommand cmd3 = new SqlCommand(query1, c);
+                    cmd3.ExecuteNonQuery();
+                    //  c.Close();
+                    string selecteval = "Select *from GroupEvaluation";
+                    SqlDataAdapter tbl = new SqlDataAdapter(selecteval, constr);
+                    DataTable tbls = new DataTable();
+                    tbl.Fill(tbls);
+
+                    dataGridView1.DataSource = tbls;
+
+                    dataGridView1.DataSource = tbls;
+                    DataGridViewButtonColumn btn = new DataGridViewButtonColumn();
+                    dataGridView1.Columns.Add(btn);
+                    btn.HeaderText = "Delete";
+                    btn.Text = "Delete";
+                    btn.Name = "btn";
+                    btn.UseColumnTextForButtonValue = true;
+
+                    DataGridViewButtonColumn btn1 = new DataGridViewButtonColumn();
+                    dataGridView1.Columns.Add(btn1);
+                    btn1.HeaderText = "Update";
+                    btn1.Text = "Update";
+                    btn1.Name = "btn1";
+                    btn1.UseColumnTextForButtonValue = true;
+                    MessageBox.Show("sucess");
+                }
+                else {
+                    MessageBox.Show("invalid entry");
+
+                }
 
 
 

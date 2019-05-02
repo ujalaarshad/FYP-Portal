@@ -37,6 +37,9 @@
             // 
             // btnadd
             // 
+            this.btnadd.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.btnadd.Location = new System.Drawing.Point(140, 163);
             this.btnadd.Name = "btnadd";
             this.btnadd.Size = new System.Drawing.Size(75, 23);
@@ -47,6 +50,9 @@
             // 
             // txtdesc
             // 
+            this.txtdesc.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.txtdesc.Location = new System.Drawing.Point(140, 74);
             this.txtdesc.Name = "txtdesc";
             this.txtdesc.Size = new System.Drawing.Size(114, 20);
@@ -55,6 +61,9 @@
             // 
             // txttitle
             // 
+            this.txttitle.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.txttitle.Location = new System.Drawing.Point(140, 120);
             this.txttitle.Name = "txttitle";
             this.txttitle.Size = new System.Drawing.Size(114, 20);
@@ -63,6 +72,9 @@
             // 
             // lblcontact
             // 
+            this.lblcontact.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lblcontact.AutoSize = true;
             this.lblcontact.Location = new System.Drawing.Point(31, 77);
             this.lblcontact.Name = "lblcontact";
@@ -73,6 +85,9 @@
             // 
             // lblfname
             // 
+            this.lblfname.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lblfname.AutoSize = true;
             this.lblfname.Location = new System.Drawing.Point(31, 123);
             this.lblfname.Name = "lblfname";

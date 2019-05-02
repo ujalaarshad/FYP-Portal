@@ -49,6 +49,9 @@
             // 
             // txtregno
             // 
+            this.txtregno.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.txtregno.Location = new System.Drawing.Point(97, 200);
             this.txtregno.Name = "txtregno";
             this.txtregno.Size = new System.Drawing.Size(100, 20);
@@ -57,6 +60,9 @@
             // 
             // lblRegNo
             // 
+            this.lblRegNo.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lblRegNo.AutoSize = true;
             this.lblRegNo.Location = new System.Drawing.Point(12, 200);
             this.lblRegNo.Name = "lblRegNo";
@@ -67,6 +73,9 @@
             // 
             // dateTimePickerDOB
             // 
+            this.dateTimePickerDOB.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.dateTimePickerDOB.Location = new System.Drawing.Point(97, 127);
             this.dateTimePickerDOB.Name = "dateTimePickerDOB";
             this.dateTimePickerDOB.Size = new System.Drawing.Size(200, 20);
@@ -75,6 +84,9 @@
             // 
             // btninsert
             // 
+            this.btninsert.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.btninsert.Location = new System.Drawing.Point(122, 235);
             this.btninsert.Name = "btninsert";
             this.btninsert.Size = new System.Drawing.Size(75, 23);
@@ -85,6 +97,9 @@
             // 
             // txtgender
             // 
+            this.txtgender.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.txtgender.Location = new System.Drawing.Point(97, 156);
             this.txtgender.Name = "txtgender";
             this.txtgender.Size = new System.Drawing.Size(100, 20);
@@ -93,6 +108,9 @@
             // 
             // txtemail
             // 
+            this.txtemail.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.txtemail.Location = new System.Drawing.Point(97, 91);
             this.txtemail.Name = "txtemail";
             this.txtemail.Size = new System.Drawing.Size(100, 20);
@@ -101,6 +119,9 @@
             // 
             // txtcon
             // 
+            this.txtcon.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.txtcon.Location = new System.Drawing.Point(97, 57);
             this.txtcon.Name = "txtcon";
             this.txtcon.Size = new System.Drawing.Size(100, 20);
@@ -109,6 +130,9 @@
             // 
             // txtlast
             // 
+            this.txtlast.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.txtlast.Location = new System.Drawing.Point(97, 31);
             this.txtlast.Name = "txtlast";
             this.txtlast.Size = new System.Drawing.Size(100, 20);
@@ -117,6 +141,9 @@
             // 
             // txtfname
             // 
+            this.txtfname.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.txtfname.Location = new System.Drawing.Point(97, 2);
             this.txtfname.Name = "txtfname";
             this.txtfname.Size = new System.Drawing.Size(100, 20);
@@ -125,6 +152,9 @@
             // 
             // lblgender
             // 
+            this.lblgender.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lblgender.AutoSize = true;
             this.lblgender.Location = new System.Drawing.Point(11, 163);
             this.lblgender.Name = "lblgender";
@@ -135,6 +165,9 @@
             // 
             // lblDOB
             // 
+            this.lblDOB.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lblDOB.AutoSize = true;
             this.lblDOB.Location = new System.Drawing.Point(11, 133);
             this.lblDOB.Name = "lblDOB";
@@ -145,6 +178,9 @@
             // 
             // lblemail
             // 
+            this.lblemail.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lblemail.AutoSize = true;
             this.lblemail.Location = new System.Drawing.Point(13, 98);
             this.lblemail.Name = "lblemail";
@@ -155,6 +191,9 @@
             // 
             // lblcontact
             // 
+            this.lblcontact.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lblcontact.AutoSize = true;
             this.lblcontact.Location = new System.Drawing.Point(9, 64);
             this.lblcontact.Name = "lblcontact";
@@ -165,6 +204,9 @@
             // 
             // lbllname
             // 
+            this.lbllname.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lbllname.AutoSize = true;
             this.lbllname.Location = new System.Drawing.Point(9, 34);
             this.lbllname.Name = "lbllname";
@@ -175,8 +217,11 @@
             // 
             // lblfname
             // 
+            this.lblfname.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lblfname.AutoSize = true;
-            this.lblfname.Location = new System.Drawing.Point(11, 2);
+            this.lblfname.Location = new System.Drawing.Point(20, 9);
             this.lblfname.Name = "lblfname";
             this.lblfname.Size = new System.Drawing.Size(57, 13);
             this.lblfname.TabIndex = 18;

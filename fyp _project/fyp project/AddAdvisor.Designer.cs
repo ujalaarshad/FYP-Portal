@@ -115,9 +115,12 @@
             // 
             // txtemail
             // 
+            this.txtemail.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.txtemail.Location = new System.Drawing.Point(168, 145);
             this.txtemail.Name = "txtemail";
-            this.txtemail.Size = new System.Drawing.Size(100, 20);
+            this.txtemail.Size = new System.Drawing.Size(75, 20);
             this.txtemail.TabIndex = 60;
             // 
             // txtcon
@@ -208,7 +211,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(601, 519);
+            this.ClientSize = new System.Drawing.Size(576, 519);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.dateTimePickerDOB);
             this.Controls.Add(this.txtgender);
